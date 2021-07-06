@@ -7,14 +7,60 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CE082DDE25C5306E00A27BF2 /* TabbarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE082DDD25C5306E00A27BF2 /* TabbarView.swift */; };
+		CE082DE325C53EF100A27BF2 /* RentPage1.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE082DE225C53EF100A27BF2 /* RentPage1.swift */; };
+		CE082DE825C53F1500A27BF2 /* BusPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE082DE725C53F1500A27BF2 /* BusPage.swift */; };
+		CE082DED25C53F1E00A27BF2 /* RentPage2.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE082DEC25C53F1E00A27BF2 /* RentPage2.swift */; };
+		CE082DFA25C57ED900A27BF2 /* OrderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE082DF925C57ED900A27BF2 /* OrderViewController.swift */; };
+		CE082DFF25C57F6900A27BF2 /* MessageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE082DFE25C57F6900A27BF2 /* MessageViewController.swift */; };
+		CE082E0425C5804E00A27BF2 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE082E0325C5804E00A27BF2 /* SettingsViewController.swift */; };
+		CE082E1425C5BF0900A27BF2 /* ReserveHintView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE082E1325C5BF0900A27BF2 /* ReserveHintView.swift */; };
+		CE082E1925C5C7EA00A27BF2 /* RentHintView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE082E1825C5C7EA00A27BF2 /* RentHintView.swift */; };
+		CE082E1E25C5CB5000A27BF2 /* RentCarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE082E1D25C5CB5000A27BF2 /* RentCarViewController.swift */; };
+		CE10F51E25E0FBD700B88000 /* DatePickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE10F51D25E0FBD700B88000 /* DatePickerView.swift */; };
+		CE42211025B6B74F00B0B264 /* UserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE42210F25B6B74F00B0B264 /* UserViewController.swift */; };
+		CE42211525B6DE5E00B0B264 /* PingFang.ttc in Resources */ = {isa = PBXBuildFile; fileRef = CE42211425B6DE5D00B0B264 /* PingFang.ttc */; };
+		CE42211A25B73CF000B0B264 /* YZMLoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE42211925B73CF000B0B264 /* YZMLoginViewController.swift */; };
 		CE5BB23E25B6B241001404BB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE5BB23D25B6B241001404BB /* AppDelegate.swift */; };
 		CE5BB24025B6B241001404BB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE5BB23F25B6B241001404BB /* SceneDelegate.swift */; };
-		CE5BB24225B6B241001404BB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE5BB24125B6B241001404BB /* ViewController.swift */; };
+		CE5BB24225B6B241001404BB /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE5BB24125B6B241001404BB /* HomeViewController.swift */; };
 		CE5BB24525B6B241001404BB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE5BB24325B6B241001404BB /* Main.storyboard */; };
 		CE5BB24725B6B243001404BB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE5BB24625B6B243001404BB /* Assets.xcassets */; };
 		CE5BB24A25B6B243001404BB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE5BB24825B6B243001404BB /* LaunchScreen.storyboard */; };
 		CE5BB25525B6B243001404BB /* CarRentingAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE5BB25425B6B243001404BB /* CarRentingAppTests.swift */; };
 		CE5BB26025B6B243001404BB /* CarRentingAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE5BB25F25B6B243001404BB /* CarRentingAppUITests.swift */; };
+		CEA6C3C525BC117A00846597 /* MMLoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA6C3C425BC117A00846597 /* MMLoginViewController.swift */; };
+		CEA6C3CD25BC163B00846597 /* PasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA6C3CC25BC163B00846597 /* PasswordViewController.swift */; };
+		CEA6C3D225BC3F1700846597 /* GetShopViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA6C3D125BC3F1700846597 /* GetShopViewController.swift */; };
+		CEA6C3D725BC3F4E00846597 /* ReturnShopViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA6C3D625BC3F4E00846597 /* ReturnShopViewController.swift */; };
+		CEBA251925CD316300A3C60F /* CreditView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEBA251825CD316300A3C60F /* CreditView.swift */; };
+		CEBA251E25CD328000A3C60F /* UserInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEBA251D25CD328000A3C60F /* UserInfoView.swift */; };
+		CEBA252325CD345800A3C60F /* UserButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEBA252225CD345800A3C60F /* UserButton.swift */; };
+		CEBA252825CD717500A3C60F /* OrderTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEBA252725CD717500A3C60F /* OrderTableViewCell.swift */; };
+		CEBA253025CD775C00A3C60F /* TitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEBA252F25CD775C00A3C60F /* TitleView.swift */; };
+		CEBA253525CD9FE700A3C60F /* BackButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEBA253425CD9FE700A3C60F /* BackButton.swift */; };
+		CEBA253A25CDA87900A3C60F /* MessageTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEBA253925CDA87900A3C60F /* MessageTableViewCell.swift */; };
+		CEBA254325CE672300A3C60F /* RentTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEBA254225CE672300A3C60F /* RentTabView.swift */; };
+		CECFD7D125CE7183003B25C7 /* PositonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CECFD7D025CE7183003B25C7 /* PositonViewController.swift */; };
+		CECFD7D625CE718D003B25C7 /* GuideViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CECFD7D525CE718D003B25C7 /* GuideViewController.swift */; };
+		CECFD7DB25CE7195003B25C7 /* ChargeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CECFD7DA25CE7195003B25C7 /* ChargeViewController.swift */; };
+		CECFD7E025CE728B003B25C7 /* CarInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CECFD7DF25CE728B003B25C7 /* CarInfoView.swift */; };
+		CECFD7E525CE7F81003B25C7 /* CarDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CECFD7E425CE7F81003B25C7 /* CarDetailView.swift */; };
+		CEDCB85A25CEB36B001F8597 /* IdentifyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEDCB85925CEB36B001F8597 /* IdentifyViewController.swift */; };
+		CEDCB85F25CEB6D5001F8597 /* CreditViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEDCB85E25CEB6D5001F8597 /* CreditViewController.swift */; };
+		CEDCB86425D240F7001F8597 /* TimeScaleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEDCB86325D240F7001F8597 /* TimeScaleView.swift */; };
+		CEDCB86925D2566C001F8597 /* ReturnCarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEDCB86825D2566C001F8597 /* ReturnCarView.swift */; };
+		CEDCB86E25D266FA001F8597 /* PickCarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEDCB86D25D266FA001F8597 /* PickCarViewController.swift */; };
+		CEDCB87925D26898001F8597 /* GetReturnShopViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEDCB87825D26898001F8597 /* GetReturnShopViewController.swift */; };
+		CEDCB87E25D26E1E001F8597 /* DeliverAddressViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEDCB87D25D26E1E001F8597 /* DeliverAddressViewController.swift */; };
+		CEDCB88325D271D1001F8597 /* MyOrderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEDCB88225D271D1001F8597 /* MyOrderViewController.swift */; };
+		CEDCB88825D27223001F8597 /* MyMessageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEDCB88725D27223001F8597 /* MyMessageViewController.swift */; };
+		CEDCB88D25D27A39001F8597 /* BackButton2.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEDCB88C25D27A39001F8597 /* BackButton2.swift */; };
+		CEDCB89325D284EA001F8597 /* IDPage1View.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEDCB89225D284EA001F8597 /* IDPage1View.swift */; };
+		CEDCB8A325D2A597001F8597 /* IDPage2View.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEDCB8A225D2A597001F8597 /* IDPage2View.swift */; };
+		CEDCB8AB25D2AAB5001F8597 /* IDPage3View.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEDCB8AA25D2AAB5001F8597 /* IDPage3View.swift */; };
+		CEDCB8B025D2B4D0001F8597 /* MyBackButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEDCB8AF25D2B4D0001F8597 /* MyBackButton.swift */; };
+		E7EEB3CB61BBE4A82D457CB7 /* libPods-CarRentingApp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9BFF1F5B291B707899241863 /* libPods-CarRentingApp.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,10 +81,25 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		9BFF1F5B291B707899241863 /* libPods-CarRentingApp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CarRentingApp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE082DDD25C5306E00A27BF2 /* TabbarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabbarView.swift; sourceTree = "<group>"; };
+		CE082DE225C53EF100A27BF2 /* RentPage1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RentPage1.swift; sourceTree = "<group>"; };
+		CE082DE725C53F1500A27BF2 /* BusPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BusPage.swift; sourceTree = "<group>"; };
+		CE082DEC25C53F1E00A27BF2 /* RentPage2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RentPage2.swift; sourceTree = "<group>"; };
+		CE082DF925C57ED900A27BF2 /* OrderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderViewController.swift; sourceTree = "<group>"; };
+		CE082DFE25C57F6900A27BF2 /* MessageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageViewController.swift; sourceTree = "<group>"; };
+		CE082E0325C5804E00A27BF2 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		CE082E1325C5BF0900A27BF2 /* ReserveHintView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReserveHintView.swift; sourceTree = "<group>"; };
+		CE082E1825C5C7EA00A27BF2 /* RentHintView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RentHintView.swift; sourceTree = "<group>"; };
+		CE082E1D25C5CB5000A27BF2 /* RentCarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RentCarViewController.swift; sourceTree = "<group>"; };
+		CE10F51D25E0FBD700B88000 /* DatePickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatePickerView.swift; sourceTree = "<group>"; };
+		CE42210F25B6B74F00B0B264 /* UserViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserViewController.swift; sourceTree = "<group>"; };
+		CE42211425B6DE5D00B0B264 /* PingFang.ttc */ = {isa = PBXFileReference; lastKnownFileType = file; name = PingFang.ttc; path = ../../../../../System/Library/Fonts/PingFang.ttc; sourceTree = "<group>"; };
+		CE42211925B73CF000B0B264 /* YZMLoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YZMLoginViewController.swift; sourceTree = "<group>"; };
 		CE5BB23A25B6B241001404BB /* CarRentingApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CarRentingApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE5BB23D25B6B241001404BB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CE5BB23F25B6B241001404BB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		CE5BB24125B6B241001404BB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CE5BB24125B6B241001404BB /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		CE5BB24425B6B241001404BB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CE5BB24625B6B243001404BB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CE5BB24925B6B243001404BB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +110,39 @@
 		CE5BB25B25B6B243001404BB /* CarRentingAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CarRentingAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE5BB25F25B6B243001404BB /* CarRentingAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarRentingAppUITests.swift; sourceTree = "<group>"; };
 		CE5BB26125B6B243001404BB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CEA6C3C425BC117A00846597 /* MMLoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MMLoginViewController.swift; sourceTree = "<group>"; };
+		CEA6C3CC25BC163B00846597 /* PasswordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordViewController.swift; sourceTree = "<group>"; };
+		CEA6C3D125BC3F1700846597 /* GetShopViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetShopViewController.swift; sourceTree = "<group>"; };
+		CEA6C3D625BC3F4E00846597 /* ReturnShopViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReturnShopViewController.swift; sourceTree = "<group>"; };
+		CEBA251825CD316300A3C60F /* CreditView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreditView.swift; sourceTree = "<group>"; };
+		CEBA251D25CD328000A3C60F /* UserInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserInfoView.swift; sourceTree = "<group>"; };
+		CEBA252225CD345800A3C60F /* UserButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserButton.swift; sourceTree = "<group>"; };
+		CEBA252725CD717500A3C60F /* OrderTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderTableViewCell.swift; sourceTree = "<group>"; };
+		CEBA252F25CD775C00A3C60F /* TitleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleView.swift; sourceTree = "<group>"; };
+		CEBA253425CD9FE700A3C60F /* BackButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackButton.swift; sourceTree = "<group>"; };
+		CEBA253925CDA87900A3C60F /* MessageTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageTableViewCell.swift; sourceTree = "<group>"; };
+		CEBA254225CE672300A3C60F /* RentTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RentTabView.swift; sourceTree = "<group>"; };
+		CECFD7D025CE7183003B25C7 /* PositonViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PositonViewController.swift; sourceTree = "<group>"; };
+		CECFD7D525CE718D003B25C7 /* GuideViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuideViewController.swift; sourceTree = "<group>"; };
+		CECFD7DA25CE7195003B25C7 /* ChargeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChargeViewController.swift; sourceTree = "<group>"; };
+		CECFD7DF25CE728B003B25C7 /* CarInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarInfoView.swift; sourceTree = "<group>"; };
+		CECFD7E425CE7F81003B25C7 /* CarDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarDetailView.swift; sourceTree = "<group>"; };
+		CEDCB85925CEB36B001F8597 /* IdentifyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IdentifyViewController.swift; sourceTree = "<group>"; };
+		CEDCB85E25CEB6D5001F8597 /* CreditViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreditViewController.swift; sourceTree = "<group>"; };
+		CEDCB86325D240F7001F8597 /* TimeScaleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeScaleView.swift; sourceTree = "<group>"; };
+		CEDCB86825D2566C001F8597 /* ReturnCarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReturnCarView.swift; sourceTree = "<group>"; };
+		CEDCB86D25D266FA001F8597 /* PickCarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickCarViewController.swift; sourceTree = "<group>"; };
+		CEDCB87825D26898001F8597 /* GetReturnShopViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetReturnShopViewController.swift; sourceTree = "<group>"; };
+		CEDCB87D25D26E1E001F8597 /* DeliverAddressViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeliverAddressViewController.swift; sourceTree = "<group>"; };
+		CEDCB88225D271D1001F8597 /* MyOrderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyOrderViewController.swift; sourceTree = "<group>"; };
+		CEDCB88725D27223001F8597 /* MyMessageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyMessageViewController.swift; sourceTree = "<group>"; };
+		CEDCB88C25D27A39001F8597 /* BackButton2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackButton2.swift; sourceTree = "<group>"; };
+		CEDCB89225D284EA001F8597 /* IDPage1View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IDPage1View.swift; sourceTree = "<group>"; };
+		CEDCB8A225D2A597001F8597 /* IDPage2View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IDPage2View.swift; sourceTree = "<group>"; };
+		CEDCB8AA25D2AAB5001F8597 /* IDPage3View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IDPage3View.swift; sourceTree = "<group>"; };
+		CEDCB8AF25D2B4D0001F8597 /* MyBackButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyBackButton.swift; sourceTree = "<group>"; };
+		D6DC8447B2CB34A3BE7DFE19 /* Pods-CarRentingApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CarRentingApp.release.xcconfig"; path = "Target Support Files/Pods-CarRentingApp/Pods-CarRentingApp.release.xcconfig"; sourceTree = "<group>"; };
+		FF29958F4F6F4EB448C04C3D /* Pods-CarRentingApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CarRentingApp.debug.xcconfig"; path = "Target Support Files/Pods-CarRentingApp/Pods-CarRentingApp.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +150,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E7EEB3CB61BBE4A82D457CB7 /* libPods-CarRentingApp.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,6 +171,153 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9DF343466F6F8719A2D376FF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FF29958F4F6F4EB448C04C3D /* Pods-CarRentingApp.debug.xcconfig */,
+				D6DC8447B2CB34A3BE7DFE19 /* Pods-CarRentingApp.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		A61C39A0006DF77169018E66 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9BFF1F5B291B707899241863 /* libPods-CarRentingApp.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CE42212125B73E2C00B0B264 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				CE42212425B73E4500B0B264 /* C */,
+				CE42212325B73E4000B0B264 /* V */,
+				CE42212225B73E3A00B0B264 /* M */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		CE42212225B73E3A00B0B264 /* M */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = M;
+			sourceTree = "<group>";
+		};
+		CE42212325B73E4000B0B264 /* V */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = V;
+			sourceTree = "<group>";
+		};
+		CE42212425B73E4500B0B264 /* C */ = {
+			isa = PBXGroup;
+			children = (
+				CE42211925B73CF000B0B264 /* YZMLoginViewController.swift */,
+				CEA6C3C425BC117A00846597 /* MMLoginViewController.swift */,
+				CEA6C3CC25BC163B00846597 /* PasswordViewController.swift */,
+			);
+			path = C;
+			sourceTree = "<group>";
+		};
+		CE42212525B73E5200B0B264 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				CE42212825B73E8300B0B264 /* C */,
+				CE42212725B73E8000B0B264 /* V */,
+				CE42212625B73E7900B0B264 /* M */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		CE42212625B73E7900B0B264 /* M */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = M;
+			sourceTree = "<group>";
+		};
+		CE42212725B73E8000B0B264 /* V */ = {
+			isa = PBXGroup;
+			children = (
+				CE082DDD25C5306E00A27BF2 /* TabbarView.swift */,
+				CE082DE225C53EF100A27BF2 /* RentPage1.swift */,
+				CE082DE725C53F1500A27BF2 /* BusPage.swift */,
+				CEDCB86825D2566C001F8597 /* ReturnCarView.swift */,
+				CE082DEC25C53F1E00A27BF2 /* RentPage2.swift */,
+				CE082E1325C5BF0900A27BF2 /* ReserveHintView.swift */,
+				CE082E1825C5C7EA00A27BF2 /* RentHintView.swift */,
+				CE10F51D25E0FBD700B88000 /* DatePickerView.swift */,
+				CEDCB86325D240F7001F8597 /* TimeScaleView.swift */,
+				CEDCB8AF25D2B4D0001F8597 /* MyBackButton.swift */,
+			);
+			path = V;
+			sourceTree = "<group>";
+		};
+		CE42212825B73E8300B0B264 /* C */ = {
+			isa = PBXGroup;
+			children = (
+				CE5BB24125B6B241001404BB /* HomeViewController.swift */,
+				CEA6C3D125BC3F1700846597 /* GetShopViewController.swift */,
+				CEDCB86D25D266FA001F8597 /* PickCarViewController.swift */,
+				CEDCB87D25D26E1E001F8597 /* DeliverAddressViewController.swift */,
+				CEDCB87825D26898001F8597 /* GetReturnShopViewController.swift */,
+				CEA6C3D625BC3F4E00846597 /* ReturnShopViewController.swift */,
+			);
+			path = C;
+			sourceTree = "<group>";
+		};
+		CE42212B25B73EAA00B0B264 /* User */ = {
+			isa = PBXGroup;
+			children = (
+				CE42212E25B73EBB00B0B264 /* C */,
+				CE42212D25B73EB500B0B264 /* V */,
+				CE42212C25B73EB100B0B264 /* M */,
+			);
+			path = User;
+			sourceTree = "<group>";
+		};
+		CE42212C25B73EB100B0B264 /* M */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = M;
+			sourceTree = "<group>";
+		};
+		CE42212D25B73EB500B0B264 /* V */ = {
+			isa = PBXGroup;
+			children = (
+				CEDCB89125D284BE001F8597 /* 身份认证 */,
+				CEBA251825CD316300A3C60F /* CreditView.swift */,
+				CEBA251D25CD328000A3C60F /* UserInfoView.swift */,
+				CEBA252225CD345800A3C60F /* UserButton.swift */,
+				CEBA252725CD717500A3C60F /* OrderTableViewCell.swift */,
+				CEBA253925CDA87900A3C60F /* MessageTableViewCell.swift */,
+				CEDCB88C25D27A39001F8597 /* BackButton2.swift */,
+				CEBA252F25CD775C00A3C60F /* TitleView.swift */,
+				CEBA253425CD9FE700A3C60F /* BackButton.swift */,
+			);
+			path = V;
+			sourceTree = "<group>";
+		};
+		CE42212E25B73EBB00B0B264 /* C */ = {
+			isa = PBXGroup;
+			children = (
+				CE42210F25B6B74F00B0B264 /* UserViewController.swift */,
+				CEDCB88225D271D1001F8597 /* MyOrderViewController.swift */,
+				CEDCB85E25CEB6D5001F8597 /* CreditViewController.swift */,
+				CE082E0325C5804E00A27BF2 /* SettingsViewController.swift */,
+				CE082DFE25C57F6900A27BF2 /* MessageViewController.swift */,
+				CEDCB88725D27223001F8597 /* MyMessageViewController.swift */,
+				CE082DF925C57ED900A27BF2 /* OrderViewController.swift */,
+				CEDCB85925CEB36B001F8597 /* IdentifyViewController.swift */,
+			);
+			path = C;
+			sourceTree = "<group>";
+		};
 		CE5BB23125B6B241001404BB = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +325,8 @@
 				CE5BB25325B6B243001404BB /* CarRentingAppTests */,
 				CE5BB25E25B6B243001404BB /* CarRentingAppUITests */,
 				CE5BB23B25B6B241001404BB /* Products */,
+				9DF343466F6F8719A2D376FF /* Pods */,
+				A61C39A0006DF77169018E66 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,11 +345,15 @@
 			children = (
 				CE5BB23D25B6B241001404BB /* AppDelegate.swift */,
 				CE5BB23F25B6B241001404BB /* SceneDelegate.swift */,
-				CE5BB24125B6B241001404BB /* ViewController.swift */,
+				CEBA253E25CE66CF00A3C60F /* RentCar */,
+				CE42212525B73E5200B0B264 /* Home */,
+				CE42212125B73E2C00B0B264 /* Login */,
+				CE42212B25B73EAA00B0B264 /* User */,
 				CE5BB24325B6B241001404BB /* Main.storyboard */,
 				CE5BB24625B6B243001404BB /* Assets.xcassets */,
 				CE5BB24825B6B243001404BB /* LaunchScreen.storyboard */,
 				CE5BB24B25B6B243001404BB /* Info.plist */,
+				CE42211425B6DE5D00B0B264 /* PingFang.ttc */,
 			);
 			path = CarRentingApp;
 			sourceTree = "<group>";
@@ -128,6 +376,54 @@
 			path = CarRentingAppUITests;
 			sourceTree = "<group>";
 		};
+		CEBA253E25CE66CF00A3C60F /* RentCar */ = {
+			isa = PBXGroup;
+			children = (
+				CEBA254125CE66EF00A3C60F /* C */,
+				CEBA254025CE66EB00A3C60F /* V */,
+				CEBA253F25CE66E600A3C60F /* M */,
+			);
+			path = RentCar;
+			sourceTree = "<group>";
+		};
+		CEBA253F25CE66E600A3C60F /* M */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = M;
+			sourceTree = "<group>";
+		};
+		CEBA254025CE66EB00A3C60F /* V */ = {
+			isa = PBXGroup;
+			children = (
+				CEBA254225CE672300A3C60F /* RentTabView.swift */,
+				CECFD7DF25CE728B003B25C7 /* CarInfoView.swift */,
+				CECFD7E425CE7F81003B25C7 /* CarDetailView.swift */,
+			);
+			path = V;
+			sourceTree = "<group>";
+		};
+		CEBA254125CE66EF00A3C60F /* C */ = {
+			isa = PBXGroup;
+			children = (
+				CE082E1D25C5CB5000A27BF2 /* RentCarViewController.swift */,
+				CECFD7D025CE7183003B25C7 /* PositonViewController.swift */,
+				CECFD7D525CE718D003B25C7 /* GuideViewController.swift */,
+				CECFD7DA25CE7195003B25C7 /* ChargeViewController.swift */,
+			);
+			path = C;
+			sourceTree = "<group>";
+		};
+		CEDCB89125D284BE001F8597 /* 身份认证 */ = {
+			isa = PBXGroup;
+			children = (
+				CEDCB89225D284EA001F8597 /* IDPage1View.swift */,
+				CEDCB8A225D2A597001F8597 /* IDPage2View.swift */,
+				CEDCB8AA25D2AAB5001F8597 /* IDPage3View.swift */,
+			);
+			path = "身份认证";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,6 +431,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CE5BB26425B6B243001404BB /* Build configuration list for PBXNativeTarget "CarRentingApp" */;
 			buildPhases = (
+				B6913B0AFDE032F221D2684E /* [CP] Check Pods Manifest.lock */,
 				CE5BB23625B6B241001404BB /* Sources */,
 				CE5BB23725B6B241001404BB /* Frameworks */,
 				CE5BB23825B6B241001404BB /* Resources */,
@@ -234,6 +531,7 @@
 				CE5BB24A25B6B243001404BB /* LaunchScreen.storyboard in Resources */,
 				CE5BB24725B6B243001404BB /* Assets.xcassets in Resources */,
 				CE5BB24525B6B241001404BB /* Main.storyboard in Resources */,
+				CE42211525B6DE5E00B0B264 /* PingFang.ttc in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -253,14 +551,83 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		B6913B0AFDE032F221D2684E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CarRentingApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		CE5BB23625B6B241001404BB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CE5BB24225B6B241001404BB /* ViewController.swift in Sources */,
+				CE5BB24225B6B241001404BB /* HomeViewController.swift in Sources */,
+				CE082E1E25C5CB5000A27BF2 /* RentCarViewController.swift in Sources */,
+				CE082DED25C53F1E00A27BF2 /* RentPage2.swift in Sources */,
+				CE082E1925C5C7EA00A27BF2 /* RentHintView.swift in Sources */,
+				CEBA253525CD9FE700A3C60F /* BackButton.swift in Sources */,
+				CEDCB87925D26898001F8597 /* GetReturnShopViewController.swift in Sources */,
+				CE42211025B6B74F00B0B264 /* UserViewController.swift in Sources */,
+				CEDCB8A325D2A597001F8597 /* IDPage2View.swift in Sources */,
+				CEA6C3D225BC3F1700846597 /* GetShopViewController.swift in Sources */,
+				CECFD7E025CE728B003B25C7 /* CarInfoView.swift in Sources */,
+				CEDCB86425D240F7001F8597 /* TimeScaleView.swift in Sources */,
+				CEBA253A25CDA87900A3C60F /* MessageTableViewCell.swift in Sources */,
+				CE082DFF25C57F6900A27BF2 /* MessageViewController.swift in Sources */,
+				CECFD7D125CE7183003B25C7 /* PositonViewController.swift in Sources */,
+				CEBA252825CD717500A3C60F /* OrderTableViewCell.swift in Sources */,
+				CE082DE825C53F1500A27BF2 /* BusPage.swift in Sources */,
+				CE082DFA25C57ED900A27BF2 /* OrderViewController.swift in Sources */,
+				CECFD7D625CE718D003B25C7 /* GuideViewController.swift in Sources */,
+				CEDCB88825D27223001F8597 /* MyMessageViewController.swift in Sources */,
+				CEBA251925CD316300A3C60F /* CreditView.swift in Sources */,
+				CEBA252325CD345800A3C60F /* UserButton.swift in Sources */,
+				CECFD7DB25CE7195003B25C7 /* ChargeViewController.swift in Sources */,
+				CEDCB8AB25D2AAB5001F8597 /* IDPage3View.swift in Sources */,
+				CEDCB86925D2566C001F8597 /* ReturnCarView.swift in Sources */,
+				CECFD7E525CE7F81003B25C7 /* CarDetailView.swift in Sources */,
+				CE082E0425C5804E00A27BF2 /* SettingsViewController.swift in Sources */,
+				CEDCB88325D271D1001F8597 /* MyOrderViewController.swift in Sources */,
 				CE5BB23E25B6B241001404BB /* AppDelegate.swift in Sources */,
+				CEDCB86E25D266FA001F8597 /* PickCarViewController.swift in Sources */,
+				CE10F51E25E0FBD700B88000 /* DatePickerView.swift in Sources */,
+				CEDCB88D25D27A39001F8597 /* BackButton2.swift in Sources */,
+				CEA6C3CD25BC163B00846597 /* PasswordViewController.swift in Sources */,
+				CE082DE325C53EF100A27BF2 /* RentPage1.swift in Sources */,
+				CEDCB89325D284EA001F8597 /* IDPage1View.swift in Sources */,
+				CE42211A25B73CF000B0B264 /* YZMLoginViewController.swift in Sources */,
+				CEBA251E25CD328000A3C60F /* UserInfoView.swift in Sources */,
+				CEA6C3C525BC117A00846597 /* MMLoginViewController.swift in Sources */,
+				CEDCB8B025D2B4D0001F8597 /* MyBackButton.swift in Sources */,
+				CEA6C3D725BC3F4E00846597 /* ReturnShopViewController.swift in Sources */,
+				CE082E1425C5BF0900A27BF2 /* ReserveHintView.swift in Sources */,
+				CE082DDE25C5306E00A27BF2 /* TabbarView.swift in Sources */,
 				CE5BB24025B6B241001404BB /* SceneDelegate.swift in Sources */,
+				CEBA254325CE672300A3C60F /* RentTabView.swift in Sources */,
+				CEBA253025CD775C00A3C60F /* TitleView.swift in Sources */,
+				CEDCB87E25D26E1E001F8597 /* DeliverAddressViewController.swift in Sources */,
+				CEDCB85A25CEB36B001F8597 /* IdentifyViewController.swift in Sources */,
+				CEDCB85F25CEB6D5001F8597 /* CreditViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -366,7 +733,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -421,7 +788,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -433,9 +800,11 @@
 		};
 		CE5BB26525B6B243001404BB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FF29958F4F6F4EB448C04C3D /* Pods-CarRentingApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = AYDR2YFZ4K;
 				INFOPLIST_FILE = CarRentingApp/Info.plist;
@@ -443,8 +812,9 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = Inoo.CarRentingApp;
+				PRODUCT_BUNDLE_IDENTIFIER = Inoo.CarRentingApp.com;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -452,18 +822,21 @@
 		};
 		CE5BB26625B6B243001404BB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D6DC8447B2CB34A3BE7DFE19 /* Pods-CarRentingApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = AYDR2YFZ4K;
 				INFOPLIST_FILE = CarRentingApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = Inoo.CarRentingApp;
+				PRODUCT_BUNDLE_IDENTIFIER = Inoo.CarRentingApp.com;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = CRDistribute;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
