@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -21,6 +21,7 @@
 		CE42211025B6B74F00B0B264 /* UserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE42210F25B6B74F00B0B264 /* UserViewController.swift */; };
 		CE42211525B6DE5E00B0B264 /* PingFang.ttc in Resources */ = {isa = PBXBuildFile; fileRef = CE42211425B6DE5D00B0B264 /* PingFang.ttc */; };
 		CE42211A25B73CF000B0B264 /* YZMLoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE42211925B73CF000B0B264 /* YZMLoginViewController.swift */; };
+		CE54F5E6269A00BF00E6CC3D /* TokenManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE54F5E5269A00BF00E6CC3D /* TokenManager.swift */; };
 		CE5BB23E25B6B241001404BB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE5BB23D25B6B241001404BB /* AppDelegate.swift */; };
 		CE5BB24025B6B241001404BB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE5BB23F25B6B241001404BB /* SceneDelegate.swift */; };
 		CE5BB24225B6B241001404BB /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE5BB24125B6B241001404BB /* HomeViewController.swift */; };
@@ -30,7 +31,7 @@
 		CE5BB25525B6B243001404BB /* CarRentingAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE5BB25425B6B243001404BB /* CarRentingAppTests.swift */; };
 		CE5BB26025B6B243001404BB /* CarRentingAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE5BB25F25B6B243001404BB /* CarRentingAppUITests.swift */; };
 		CEA6C3C525BC117A00846597 /* MMLoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA6C3C425BC117A00846597 /* MMLoginViewController.swift */; };
-		CEA6C3CD25BC163B00846597 /* PasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA6C3CC25BC163B00846597 /* PasswordViewController.swift */; };
+		CEA6C3CD25BC163B00846597 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA6C3CC25BC163B00846597 /* RegisterViewController.swift */; };
 		CEA6C3D225BC3F1700846597 /* GetShopViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA6C3D125BC3F1700846597 /* GetShopViewController.swift */; };
 		CEA6C3D725BC3F4E00846597 /* ReturnShopViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA6C3D625BC3F4E00846597 /* ReturnShopViewController.swift */; };
 		CEBA251925CD316300A3C60F /* CreditView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEBA251825CD316300A3C60F /* CreditView.swift */; };
@@ -60,7 +61,7 @@
 		CEDCB8A325D2A597001F8597 /* IDPage2View.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEDCB8A225D2A597001F8597 /* IDPage2View.swift */; };
 		CEDCB8AB25D2AAB5001F8597 /* IDPage3View.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEDCB8AA25D2AAB5001F8597 /* IDPage3View.swift */; };
 		CEDCB8B025D2B4D0001F8597 /* MyBackButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEDCB8AF25D2B4D0001F8597 /* MyBackButton.swift */; };
-		E7EEB3CB61BBE4A82D457CB7 /* libPods-CarRentingApp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9BFF1F5B291B707899241863 /* libPods-CarRentingApp.a */; };
+		FBA6799155204B61A9F297CD /* Pods_CarRentingApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E586A11E53306DB27CF98354 /* Pods_CarRentingApp.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -81,7 +82,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		9BFF1F5B291B707899241863 /* libPods-CarRentingApp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CarRentingApp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE082DDD25C5306E00A27BF2 /* TabbarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabbarView.swift; sourceTree = "<group>"; };
 		CE082DE225C53EF100A27BF2 /* RentPage1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RentPage1.swift; sourceTree = "<group>"; };
 		CE082DE725C53F1500A27BF2 /* BusPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BusPage.swift; sourceTree = "<group>"; };
@@ -96,6 +96,7 @@
 		CE42210F25B6B74F00B0B264 /* UserViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserViewController.swift; sourceTree = "<group>"; };
 		CE42211425B6DE5D00B0B264 /* PingFang.ttc */ = {isa = PBXFileReference; lastKnownFileType = file; name = PingFang.ttc; path = ../../../../../System/Library/Fonts/PingFang.ttc; sourceTree = "<group>"; };
 		CE42211925B73CF000B0B264 /* YZMLoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YZMLoginViewController.swift; sourceTree = "<group>"; };
+		CE54F5E5269A00BF00E6CC3D /* TokenManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TokenManager.swift; sourceTree = "<group>"; };
 		CE5BB23A25B6B241001404BB /* CarRentingApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CarRentingApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE5BB23D25B6B241001404BB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CE5BB23F25B6B241001404BB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -111,7 +112,7 @@
 		CE5BB25F25B6B243001404BB /* CarRentingAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarRentingAppUITests.swift; sourceTree = "<group>"; };
 		CE5BB26125B6B243001404BB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CEA6C3C425BC117A00846597 /* MMLoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MMLoginViewController.swift; sourceTree = "<group>"; };
-		CEA6C3CC25BC163B00846597 /* PasswordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordViewController.swift; sourceTree = "<group>"; };
+		CEA6C3CC25BC163B00846597 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
 		CEA6C3D125BC3F1700846597 /* GetShopViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetShopViewController.swift; sourceTree = "<group>"; };
 		CEA6C3D625BC3F4E00846597 /* ReturnShopViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReturnShopViewController.swift; sourceTree = "<group>"; };
 		CEBA251825CD316300A3C60F /* CreditView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreditView.swift; sourceTree = "<group>"; };
@@ -142,6 +143,7 @@
 		CEDCB8AA25D2AAB5001F8597 /* IDPage3View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IDPage3View.swift; sourceTree = "<group>"; };
 		CEDCB8AF25D2B4D0001F8597 /* MyBackButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyBackButton.swift; sourceTree = "<group>"; };
 		D6DC8447B2CB34A3BE7DFE19 /* Pods-CarRentingApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CarRentingApp.release.xcconfig"; path = "Target Support Files/Pods-CarRentingApp/Pods-CarRentingApp.release.xcconfig"; sourceTree = "<group>"; };
+		E586A11E53306DB27CF98354 /* Pods_CarRentingApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CarRentingApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FF29958F4F6F4EB448C04C3D /* Pods-CarRentingApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CarRentingApp.debug.xcconfig"; path = "Target Support Files/Pods-CarRentingApp/Pods-CarRentingApp.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -150,7 +152,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E7EEB3CB61BBE4A82D457CB7 /* libPods-CarRentingApp.a in Frameworks */,
+				FBA6799155204B61A9F297CD /* Pods_CarRentingApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -177,14 +179,13 @@
 				FF29958F4F6F4EB448C04C3D /* Pods-CarRentingApp.debug.xcconfig */,
 				D6DC8447B2CB34A3BE7DFE19 /* Pods-CarRentingApp.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
 		A61C39A0006DF77169018E66 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				9BFF1F5B291B707899241863 /* libPods-CarRentingApp.a */,
+				E586A11E53306DB27CF98354 /* Pods_CarRentingApp.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -202,6 +203,7 @@
 		CE42212225B73E3A00B0B264 /* M */ = {
 			isa = PBXGroup;
 			children = (
+				CE54F5E5269A00BF00E6CC3D /* TokenManager.swift */,
 			);
 			path = M;
 			sourceTree = "<group>";
@@ -218,7 +220,7 @@
 			children = (
 				CE42211925B73CF000B0B264 /* YZMLoginViewController.swift */,
 				CEA6C3C425BC117A00846597 /* MMLoginViewController.swift */,
-				CEA6C3CC25BC163B00846597 /* PasswordViewController.swift */,
+				CEA6C3CC25BC163B00846597 /* RegisterViewController.swift */,
 			);
 			path = C;
 			sourceTree = "<group>";
@@ -435,6 +437,7 @@
 				CE5BB23625B6B241001404BB /* Sources */,
 				CE5BB23725B6B241001404BB /* Frameworks */,
 				CE5BB23825B6B241001404BB /* Resources */,
+				7AE610496372C1E6DEA80F1F /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -552,6 +555,23 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		7AE610496372C1E6DEA80F1F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CarRentingApp/Pods-CarRentingApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CarRentingApp/Pods-CarRentingApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CarRentingApp/Pods-CarRentingApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		B6913B0AFDE032F221D2684E /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -606,13 +626,14 @@
 				CEDCB8AB25D2AAB5001F8597 /* IDPage3View.swift in Sources */,
 				CEDCB86925D2566C001F8597 /* ReturnCarView.swift in Sources */,
 				CECFD7E525CE7F81003B25C7 /* CarDetailView.swift in Sources */,
+				CE54F5E6269A00BF00E6CC3D /* TokenManager.swift in Sources */,
 				CE082E0425C5804E00A27BF2 /* SettingsViewController.swift in Sources */,
 				CEDCB88325D271D1001F8597 /* MyOrderViewController.swift in Sources */,
 				CE5BB23E25B6B241001404BB /* AppDelegate.swift in Sources */,
 				CEDCB86E25D266FA001F8597 /* PickCarViewController.swift in Sources */,
 				CE10F51E25E0FBD700B88000 /* DatePickerView.swift in Sources */,
 				CEDCB88D25D27A39001F8597 /* BackButton2.swift in Sources */,
-				CEA6C3CD25BC163B00846597 /* PasswordViewController.swift in Sources */,
+				CEA6C3CD25BC163B00846597 /* RegisterViewController.swift in Sources */,
 				CE082DE325C53EF100A27BF2 /* RentPage1.swift in Sources */,
 				CEDCB89325D284EA001F8597 /* IDPage1View.swift in Sources */,
 				CE42211A25B73CF000B0B264 /* YZMLoginViewController.swift in Sources */,
